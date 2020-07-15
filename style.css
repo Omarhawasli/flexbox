@@ -1,0 +1,78 @@
+* {
+
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+   
+}
+
+body {
+    font-family: 'Josefin Slab', serif;
+    border-right: 5px double black ;
+    border-top:5px double black ;
+    border-left: 5px double black;
+    border-bottom: 5px double black;
+}
+
+
+.logoimg {
+
+    width: 15vw;
+    margin:50px auto ;
+    display: block;
+}
+
+.keysimg { 
+    width: 50vw;
+    display: block;
+    margin: 50px auto;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red
+    
+}
+
+   
+li {
+   /*  display: inline;
+    padding: 30px; */
+    list-style: none;
+    border-top: 4px solid black;
+    border-bottom: 1px solid black;
+   
+    
+}
+
+
+.box {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-basis: auto;
+    
+    
+}
+
+.box > li {
+    font-size: 1rem;
+    width: 10vw;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+p {
+
+    width: 30vw; 
+    margin: 30px auto;
+}
